@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arnab Sadhukhan | Portfolio</title>
+<style>
+:root{--bg:#0b1020;--card:#121a2f;--text:#eef2ff;--muted:#aab4d0;--accent:#7c5cff;--accent2:#25d0ab;--border:#263252}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:linear-gradient(135deg,#080c18,#10172b 55%,#0b1020);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;background:rgba(8,12,24,.86);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.nav{max-width:1100px;margin:auto;padding:16px 24px;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:800}.logo span{color:var(--accent)}
+.links{display:flex;gap:24px;color:var(--muted);font-size:14px}.links a:hover{color:#fff}
+.hero{max-width:1100px;margin:auto;padding:100px 24px 80px;display:grid;grid-template-columns:1.4fr .8fr;gap:50px;align-items:center}
+.badge{display:inline-block;padding:7px 13px;border:1px solid #39456d;border-radius:999px;color:#c7d0ed;background:#111a31;font-size:13px}
+h1{font-size:clamp(46px,7vw,82px);line-height:1.02;margin:20px 0 18px;letter-spacing:-3px}
+.gradient{background:linear-gradient(90deg,#fff,#a999ff,#6ee7d0);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{font-size:19px;color:var(--muted);max-width:680px}
+.buttons{display:flex;gap:14px;margin-top:28px;flex-wrap:wrap}
+.btn{padding:12px 18px;border-radius:10px;border:1px solid var(--border);background:#151e37;font-weight:700}
+.btn.primary{background:var(--accent);border-color:var(--accent)}
+.profile{width:260px;height:260px;border-radius:32px;margin:auto;background:radial-gradient(circle at 30% 20%,#8b78ff,transparent 35%),linear-gradient(145deg,#18254b,#10162b);display:grid;place-items:center;border:1px solid #38466f;box-shadow:0 25px 80px rgba(124,92,255,.22)}
+.profile span{font-size:82px;font-weight:900;letter-spacing:-6px}
+section{max-width:1100px;margin:auto;padding:70px 24px}
+.section-title{font-size:34px;margin:0 0 10px}.section-sub{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:30px}
+.card{background:rgba(18,26,47,.82);border:1px solid var(--border);border-radius:18px;padding:24px}
+.card h3{margin-top:0}.card p{color:var(--muted)}
+.tags{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}
+.tag{padding:7px 10px;border-radius:8px;background:#19233f;color:#d8def2;border:1px solid #2b395e;font-size:13px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.stat{font-size:34px;font-weight:800;color:#fff}.muted{color:var(--muted)}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.contact a{display:block}
+footer{text-align:center;padding:35px 24px;color:#7f8baa;border-top:1px solid var(--border)}
+@media(max-width:800px){.hero,.about,.contact{grid-template-columns:1fr}.profile{width:210px;height:210px}.grid{grid-template-columns:1fr}.links{display:none}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<nav><div class="nav">
+<div class="logo">Arnab<span>.</span></div>
+<div class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+</div></nav>
+
+<header class="hero">
+<div>
+<span class="badge">BCA Student • Aspiring Tech Professional</span>
+<h1>Hi, I'm <span class="gradient">Arnab Sadhukhan</span>.</h1>
+<p>Aspiring Data Analyst, Software Developer & Web Developer building practical skills in programming, web technologies, and data-focused problem solving.</p>
+<div class="buttons">
+<a class="btn primary" href="#projects">View My Work</a>
+<a class="btn" href="#contact">Let's Connect</a>
+</div>
+</div>
+<div class="profile"><span>AS</span></div>
+</header>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<p class="section-sub">A quick introduction</p>
+<div class="about">
+<div class="card">
+<p>I am a BCA 4th-year student with a 7.5 CGPA and a strong interest in technology and software development. I enjoy learning programming concepts and turning ideas into useful digital solutions.</p>
+<p>My current career interests include data analysis, software development, and web development.</p>
+</div>
+<div class="card">
+<div class="stat">7.5</div><div class="muted">Current CGPA</div>
+<br><div class="stat">BCA</div><div class="muted">4th Year</div>
+<br><div class="stat">3</div><div class="muted">Career Focus Areas</div>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<p class="section-sub">Technologies I'm currently working with</p>
+<div class="grid">
+<div class="card"><h3>Programming</h3><div class="tags"><span class="tag">C</span><span class="tag">Python</span><span class="tag">Java</span></div></div>
+<div class="card"><h3>Web Development</h3><div class="tags"><span class="tag">HTML</span></div></div>
+<div class="card"><h3>Strengths</h3><div class="tags"><span class="tag">Problem Solving</span><span class="tag">Learning</span><span class="tag">Analytical Thinking</span></div></div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects & Practice</h2>
+<p class="section-sub">A space for my academic and personal work</p>
+<div class="grid">
+<div class="card"><h3>Programming Practice</h3><p>Hands-on practice with C, Python and Java fundamentals, including operators, type casting, input handling and problem-solving programs.</p></div>
+<div class="card"><h3>Web Development</h3><p>Building and experimenting with HTML-based web pages while developing a stronger foundation in frontend development.</p></div>
+<div class="card"><h3>Academic Work</h3><p>BCA coursework and technical assignments covering programming, databases, computer networks, algorithms and other core computing concepts.</p></div>
+</div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+<p class="section-sub">Academic background</p>
+<div class="card">
+<h3>Bachelor of Computer Applications (BCA)</h3>
+<p>4th Year • CGPA: 7.5</p>
+<p class="muted">University of Burdwan • Vivekananda Mahavidyalaya, Haripal</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Let's Connect</h2>
+<p class="section-sub">Open to opportunities and professional conversations.</p>
+<div class="contact">
+<div class="card"><h3>Email</h3><a href="mailto:arnabsadhukhan05@gmail.com" class="muted">arnabsadhukhan05@gmail.com</a></div>
+<div class="card"><h3>Phone</h3><a href="tel:+917076656780" class="muted">+91 70766 56780</a></div>
+<div class="card"><h3>Location</h3><p class="muted">Tarakeswar, West Bengal</p></div>
+<div class="card"><h3>Languages</h3><p class="muted">Hindi • English • Bengali</p></div>
+</div>
+</section>
+
+<footer>© 2026 Arnab Sadhukhan • Personal Portfolio</footer>
+</body>
+</html>
