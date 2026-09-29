@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Portfolio of Arnab Sadhukhan - BCA student, aspiring Data Analyst, Software Developer and Web Developer.">
+
+    <title>Arnab Sadhukhan | Developer Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Animated Code Background -->
+    <canvas id="code-background"></canvas>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+    <nav class="navbar container">
+
+        <a href="#home" class="logo">
+            Arnab<span>.</span>
+        </a>
+
+        <button class="menu-btn" id="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<main>
+
+<section class="hero" id="home">
+
+    <div class="hero-bg"></div>
+
+    <div class="container hero-content">
+
+        <div class="hero-text reveal">
+
+            <p class="hello">
+                👋 Hello, I'm
+            </p>
+
+            <h1>
+                Arnab <span>Sadhukhan</span>
+            </h1>
+
+            <h2>
+                <span id="typing-text"></span>
+            </h2>
+
+            <p class="hero-description">
+                BCA student passionate about building modern websites,
+                software applications and data-driven solutions.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    View My Work
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-links">
+
+                <a href="#" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+
+                <a href="#" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+
+                <a href="#" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-photo reveal">
+
+    <div class="photo-wrapper">
+        <img
+            src="profile.jpg"
+            alt="Arnab Sadhukhan"
+        >
+    </div>
+
+</div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="section" id="about">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">ABOUT ME</p>
+
+            <h2>
+                Turning ideas into
+                <span>digital experiences.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-text reveal">
+
+                <p>
+                    I'm <strong>Arnab Sadhukhan</strong>, a BCA student
+                    from West Bengal with a strong interest in software
+                    development, web development and data analysis.
+                </p>
+
+                <p>
+                    I enjoy learning new technologies and creating
+                    practical projects that solve real-world problems.
+                    I'm currently improving my programming and
+                    development skills through hands-on projects.
+                </p>
+
+                <div class="about-stats">
+
+                    <div class="stat">
+                        <h3>BCA</h3>
+                        <p>4th Year</p>
+                    </div>
+
+                    <div class="stat">
+                        <h3>∞</h3>
+                        <p>Learning</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-info reveal">
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <div>
+                        <h3>Development</h3>
+                        <p>
+                            Building responsive websites and
+                            software applications.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <div>
+                        <h3>Data Analysis</h3>
+                        <p>
+                            Exploring data and creating
+                            meaningful insights.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="info-card">
+
+                    <i class="fa-solid fa-lightbulb"></i>
+
+                    <div>
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Learning through practical
+                            challenges and projects.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="section skills-section" id="skills">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">MY SKILLS</p>
+
+            <h2>
+                Technologies I
+                <span>work with.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+                <i class="fa-solid fa-c"></i>
+                <h3>C</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fa-brands fa-python"></i>
+                <h3>Python</h3>
+                <p>Programming & Data</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fa-brands fa-java"></i>
+                <h3>Java</h3>
+                <p>Programming</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Web Development</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Web Design</p>
+            </div>
+
+            <div class="skill-card reveal">
+                <i class="fa-solid fa-database"></i>
+                <h3>SQL</h3>
+                <p>Database</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="section" id="projects">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">MY WORK</p>
+
+            <h2>
+                Featured
+                <span>projects.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- PROJECT 1 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-number">01</p>
+
+                    <h3>Student Management System</h3>
+
+                    <p>
+                        A simple web-based application for
+                        managing student records using PHP
+                        and MySQL.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 2 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-number">02</p>
+
+                    <h3>College Website</h3>
+
+                    <p>
+                        A responsive college website containing
+                        campus information, placement details
+                        and downloadable routines.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- PROJECT 3 -->
+
+            <article class="project-card reveal">
+
+                <div class="project-icon">
+                    <i class="fa-solid fa-chart-simple"></i>
+                </div>
+
+                <div class="project-content">
+
+                    <p class="project-number">03</p>
+
+                    <h3>Data Analysis Project</h3>
+
+                    <p>
+                        A beginner-friendly data analysis project
+                        using Python to process and understand
+                        structured datasets.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Data</span>
+
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="section education-section" id="education">
+
+    <div class="container">
+
+        <div class="section-heading reveal">
+
+            <p class="section-label">EDUCATION</p>
+
+            <h2>
+                My academic
+                <span>journey.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        2023 — Present
+                    </span>
+
+                    <h3>Bachelor of Computer Applications</h3>
+
+                    <h4>
+                        The University of Burdwan
+                    </h4>
+
+                    <p>
+                        BCA — 4th Year
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+            <div class="timeline-item reveal">
+
+                <div class="timeline-dot"></div>
+
+                <div class="timeline-content">
+
+                    <span class="timeline-date">
+                        College
+                    </span>
+
+                    <h3>Vivekananda Mahavidyalaya</h3>
+
+                    <h4>
+                        Haripal, Hooghly, West Bengal
+                    </h4>
+
+                    <p>
+                        Computer Applications
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="section contact-section" id="contact">
+
+    <div class="container">
+
+        <div class="contact-box reveal">
+
+            <div class="contact-content">
+
+                <p class="section-label">GET IN TOUCH</p>
+
+                <h2>
+                    Let's build something
+                    <span>great together.</span>
+                </h2>
+
+                <p>
+                    I'm open to opportunities, collaborations,
+                    projects and conversations about technology.
+                </p>
+
+                <a href="mailto:your-email@example.com"
+                   class="btn primary-btn">
+
+                    Send Me an Email
+
+                    <i class="fa-solid fa-paper-plane"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-decoration">
+
+                <i class="fa-solid fa-code"></i>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="container footer-content">
+
+        <p>
+            © <span id="year"></span> Arnab Sadhukhan.
+            All rights reserved.
+        </p>
+
+        <a href="#home" class="back-top">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
